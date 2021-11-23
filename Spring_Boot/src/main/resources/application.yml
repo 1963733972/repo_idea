@@ -1,0 +1,13 @@
+server:
+  port: 8088
+  error:
+    path:
+spring:
+  mvc:
+    hiddenmethod:
+      filter:
+        enabled:
+    contentnegotiation:
+      favor-parameter: true
+
+
